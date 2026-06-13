@@ -101,40 +101,6 @@ Average Drop measures how much the model's confidence **drops** when important r
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-```bash
-pip install tensorflow opencv-python imutils matplotlib numpy scikit-learn
-```
-
-### Running the Notebooks
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/calvinWorkplace/Understanding-the-Decision-Making-Process-in-Brain-Tumor-Classification.git
-   cd Understanding-the-Decision-Making-Process-in-Brain-Tumor-Classification
-   ```
-
-2. **Start with data preprocessing**
-   ```
-   Open Code/PreProcessingData.ipynb
-   ```
-
-3. **Train individual models**
-   ```
-   Open any model notebook (e.g., Code/Resnet50.ipynb)
-   Run all cells sequentially
-   ```
-
-4. **Analyze explainability**
-   ```
-   Open Code/AverageDrop.ipynb
-   ```
-
----
-
 ## 🔍 Methodology
 
 ### Pipeline Overview
