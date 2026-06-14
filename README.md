@@ -69,17 +69,18 @@ All models were fine-tuned with:
 
 ### Average Drop (Explainability Metric)
 
-Average Drop measures how much the model's confidence **drops** when important regions are removed. A **lower Average Drop** indicates the model relies on more meaningful, focused regions for its predictions — making it more interpretable.
+Average Drop measures how much the model's confidence **drops** when important regions identified by Grad-CAM are removed. A **lower Average Drop** indicates a more robust model — its predictions are less affected when the highlighted regions are masked. On the other hand, a **higher Average Drop** indicates that the Grad-CAM heatmap more faithfully reflects the regions the model actually relies on for its decision — i.e., better tumor localization for clinical interpretability.
 
-| Model              | Average Drop (%) | Interpretability   |
-|--------------------|------------------|--------------------|
-| **ResNet50**       | 40.11%           | ⭐⭐⭐⭐⭐ Best    |
-| **EfficientNetB3** | 46.71%           | ⭐⭐⭐⭐           |
-| **VGG16**          | 48.29%           | ⭐⭐⭐             |
-| **DenseNet121**    | 62.07%           | ⭐⭐               |
-| **InceptionV3**    | 70.52%           | ⭐                 |
+| Model              | Average Drop (%) | Robustness          | Localization Faithfulness |
+|--------------------|------------------|----------------------|----------------------------|
+| **ResNet50**       | 40.11%           | ⭐⭐⭐⭐⭐ Most Robust | ⭐                          |
+| **EfficientNetB3** | 46.71%           | ⭐⭐⭐⭐                | ⭐⭐                        |
+| **VGG16**          | 48.29%           | ⭐⭐⭐                 | ⭐⭐                        |
+| **DenseNet121**    | 62.07%           | ⭐⭐                   | ⭐⭐⭐⭐                     |
+| **InceptionV3**    | 70.52%           | ⭐                    | ⭐⭐⭐⭐⭐ Best               |
 
-> **ResNet50 achieved the lowest Average Drop (40.11%)**, making it the most interpretable model for brain tumor classification in this study.
+
+> **ResNet50 achieved the lowest Average Drop (40.11%)**, indicating the most robust predictions. However, **InceptionV3, with the highest Average Drop (70.52%)**, produces the most clinically faithful Grad-CAM heatmaps — making it the most useful model for helping clinicians pinpoint tumor locations.
 
 ---
 
