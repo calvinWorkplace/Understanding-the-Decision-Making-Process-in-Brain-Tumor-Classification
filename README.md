@@ -7,6 +7,7 @@
 [![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?style=for-the-badge&logo=keras)](https://keras.io)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)](https://jupyter.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Presentation](https://img.shields.io/badge/Presentation-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/NjpnMFoFd-A?si=mpqYSkdp7_gwB6AP)
 
 > **Explainable AI meets Medical Imaging** — A comparative study of CNN-based deep learning models for brain tumor classification with interpretability analysis using Average Drop metrics.
 
@@ -136,6 +137,12 @@ The paper covers:
 - Detailed methodology and experimental setup
 - Statistical analysis of model performance
 - Discussion on explainability in medical AI
+
+---
+
+## 🎬 Presentation
+
+▶️ [**Watch Presentation on YouTube**](https://youtu.be/NjpnMFoFd-A?si=mpqYSkdp7_gwB6AP)
 
 ---
 
