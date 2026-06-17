@@ -159,11 +159,11 @@ The paper covers:
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-**calvinWorkplace**
-
-[![GitHub](https://img.shields.io/badge/GitHub-calvinWorkplace-181717?style=flat-square&logo=github)](https://github.com/calvinWorkplace)
+- **Calvin Suharjono**
+- **Stefanus Abel Filio**
+- **Ringo Gary Buntono**
 
 ---
 
